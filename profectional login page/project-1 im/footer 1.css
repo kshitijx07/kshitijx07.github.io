@@ -1,0 +1,29 @@
+footer{
+    height: 7vh;
+    margin: 2vh;
+    background-color: #cf9ee5;
+    display: grid;
+    grid-column-gap: 395px;
+    grid-template-columns: 35vw 37vw;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+.copy{
+    margin: 13px 1px;
+    padding: 2px;
+    font-size: 13px;
+    border: #bc48f3;
+    border-radius: 50px;
+    background-color: rgb(225, 237, 241);
+    text-align: center;
+}
+.poly{
+        margin: 13px 10px;
+        padding: 2px;
+        font-size: 13px;
+        border: #bc48f3;
+        border-radius: 50px;
+        background-color: rgb(225, 237, 241);
+        text-align: center;
+    }

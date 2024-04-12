@@ -1,0 +1,96 @@
+.head{
+    height: 7vh;
+    margin: 7px;
+    padding: 2px;
+    background-color: #d298ed;
+    display: grid;
+    grid-column-gap: 30px;
+    grid-template-columns: 13vw 13vw 13vw auto;
+    text-align: center;
+    position: sticky;
+    top: 0;
+
+}
+.item{
+    margin: 8px 10px;
+    padding: 2px;
+    font-size: 13px;
+    border: #bc48f3;
+    border-radius: 50px;
+    background-color: rgb(225, 237, 241);
+    
+}
+.item2{
+    margin: 8px 1px;
+    padding: 2px;
+    font-size: 13px;
+    border: #bc48f3;
+    border-radius: 50px;
+    background-color: rgb(225, 237, 241);
+
+}
+.item3{
+    margin: 8px 1px;
+    padding: 2px;
+    font-size: 13px;
+    border: #bc48f3;
+    border-radius: 50px;
+    background-color: rgb(225, 237, 241);
+}
+.item4{
+    
+
+    width: 800px;
+    margin: 8px 57px;
+    padding: 2px;
+    font-size: 13px;
+    border: #bc48f3;
+    border-radius: 50px;
+    background-color: rgb(225, 237, 241);
+    animation: dragon 1s ease-in-out infinite alternate-reverse ;
+
+}
+
+.text{
+    min-height: 4000px;
+}
+
+@keyframes dragon{
+    from{
+        width: 280px;
+        height: 28px;
+    }
+    to{
+        width: 550px;
+        height: 28px;
+    }
+}
+.item:hover{
+    font-weight: bolder;
+    cursor: pointer;
+}
+.item2:hover{
+    font-weight: bolder;
+        cursor: pointer;
+
+}
+.item3:hover{
+    font-weight: bolder;
+        cursor: pointer;
+
+}
+.item4:hover{
+    font-weight: bolder;
+        cursor: pointer;
+
+}
+#fsrch{
+    border: none;
+    outline: none;
+    font-size: 13px;
+    border: #bc48f3;
+    border-radius: 50px;
+    background-color: rgb(225, 237, 241);
+    animation: dragon 1s ease-in-out infinite alternate-reverse ;
+
+}

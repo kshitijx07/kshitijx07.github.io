@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(25deg, #ddc8e4 50%, #f7f3f8 50%);
+
+}
+header{
+    position: fixed;
+    margin: 2px 0px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+    background-color: #f7f3f8;
+    border: 1px solid rgb(207, 47, 239);
+    border-radius: 20px;
+}  
+.logo{
+    font-size: 25px;
+    color: #c346ed;
+    user-select: none;
+}
+.navi a {
+    position: relative;
+    font-size: 1.1em;
+    color: #c346ed;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+}
+.navi a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: #c346ed;
+    border-radius: 5px;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+.navi a:hover:after{
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+.navi .login{
+    width: 130px;
+    height:   50px;
+    background: transparent;
+    border: px solid white;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #c346ed;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: .5s;
+}
+.navi .login:hover{
+    background: white;
+    color: black;
+}
+.wapper{
+    position: relative;
+    height: 440px;
+    width: 400px;
+    justify-content: center;
+    border: 2px solid white;
+    background: transparent whitesmoke;
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    display: flex;
+    align-items: center;
+
+}
+.formbox{
+    width: 100%;
+    padding: 40px;
+}
+.h2{
+    margin: 0px 4vw;
+    width: 100%;
+    padding: 40px;
+}
+
+.input-field{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid black;
+    margin: 30px 0;
+}
+.input-field label{
+    position: absolute;
+    top: 35%;
+    left: 5px;
+    font-size: 1em;
+    color: black;
+    font-weight: 500;
+    position: none;
+    transition: .5s;
+}
+
+.input-field input:focus~label,
+.input-field input:valid~label{
+    top:-10px;
+}
+
+.input-field input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+
+}
+.forget{
+    font-size: .9em;
+    color: black;
+    font-weight: 500;
+    margin: -15px 0px 15px;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.forget label input{
+  accent-color: black;
+  margin-right: 5px; 
+   
+}
+.forget a{
+    color: black;
+    text-decoration: none;
+}
+
+.forget a:hover{
+    text-decoration: underline;
+}
+.btn{
+    width: 100%;
+    height: 45px;
+    background: rgb(207, 47, 239);
+    border: none;
+    outline: none;
+    border-radius: 6px  ;
+    cursor: pointer;
+    font-size: 1em;
+    color: black;
+    font-weight: 500;
+
+}
+.Create-account{
+    font-size: .9em;
+    color: black;
+    text-align: center;
+    font-weight: 500;
+    margin: 25px 0 10px;
+
+}

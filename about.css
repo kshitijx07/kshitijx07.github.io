@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Saira Condensed";
+    /* background-color: #EDF1FD; */
+    background-color: white;
+  }
+  body{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+  }
+
+                                                            /* HEADER */
+    
+  .header{
+    height: 7vh;
+    margin: 7px;
+    padding: 2px;
+    position: fixed;
+    margin: 2px 0px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+  } 
+  .hyper{
+    color: rgb(0, 0, 0);
+    font-size: 1em; 
+
+
+  }
+  .hyper:hover{
+    color: red;
+  }
+  .name{
+    font-size: 3.5em;
+  }
+  .info{
+    font-size: 1em;
+  }
+  .hello{
+    font-size: 1em;
+  }
+  #projects{
+    border: none;
+    outline: none;
+  }
+
+                                                                 /* main */
+
+
+.footer{
+  position: fixed;
+  top: 90vh;
+  left: 0;
+  height: 7vh;
+  margin: 0px 35vw;
+  display: grid;
+  grid-column-gap: 30px;
+  grid-template-columns: 7vw 7vw 7vw 7vw;
+  text-align: center;
+  
+} 
+.icon{
+  margin: 8px 10px;
+  padding: 2px;
+  font-size: 13px;
+}
+.navbar {
+    background-color: #333;
+    position: relative;
+    z-index: 999;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+background: rgb(255, 255, 255);
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar li a {
+    color: rgb(0, 0, 0);
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1em; 
+}
+
+/* Style the dropdown menu */
+.navbar ul ul {
+    position: absolute;
+    top: 100%;
+    display: none;
+}
+
+.navbar ul ul li {
+    display: block;
+}
+
+.navbar li:hover ul {
+    display: block;
+}
+
+/* Change the background color of dropdown links on hover */
+.navbar ul ul li a:hover {
+    background-color: #dfdede;
+}
+.hyper:link { 
+  text-decoration: none; 
+} 
+.hyper:visited { 
+  text-decoration: none; 
+} 
+.hyper:hover { 
+  text-decoration: none; 
+} 
+.hyper:active { 
+  text-decoration: none; 
+}
